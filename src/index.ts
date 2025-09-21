@@ -1,4 +1,5 @@
 import { config } from './config.js';
+export { config } from './config.js';
 
 export function add(a: number, b: number): number {
   return a + b;
