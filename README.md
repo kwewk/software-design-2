@@ -35,7 +35,7 @@ npm run typecheck
 npm run lint
 npm run format:check
 ```
-
+---
 ## Еволюція бібліотеки
 Кожен крок відображено у git-історії та тегах релізів (v0.1.0, v0.2.0, …, v2.0.0).
 Основні зміни:
@@ -53,6 +53,7 @@ npm run format:check
 **1.0.0** – стабілізація API: заборона any, експорти у package.json.
 
 **2.0.0** – breaking change: add тепер приймає масив чисел (number[]).
+
 
 ## Приклади використання
 ``` ts
@@ -81,7 +82,7 @@ logger.info('Додаток запущено');
 logger.debug('Детальне повідомлення для відладки');
 ```
 
-
+---
 ## Конфігурація оточення (.env)
 Файл .env (у .gitignore):
 ``` env
@@ -90,8 +91,21 @@ LOG_LEVEL=debug
 ```
 Валідація змінних здійснюється через zod.
 
-## Помилки та виправлення
+---
 
+## Скриншоти
+У цьому розділі наведені демонстрації комітів (локальної роботи husky-хуків). Додаткові скріни (помилки та випралення та інші комміти) наведені в папці images.
+- ![First commit](screenshots/0.0.0%20коміт.png)
+- ![1.0.0 commit](screenshots/1.0.0%20коміт.png)
+- ![2.0.0 commit](screenshots/2.0.0%20коміт.png)
 
+---
 
 ## Теги та релізи
+- [v0.1.0](https://github.com/kwewk/software-design-2/releases/tag/v0.1.0)
+- [v0.2.0](https://github.com/kwewk/software-design-2/releases/tag/v0.2.0)
+- [v0.3.0](https://github.com/kwewk/software-design-2/releases/tag/v0.3.0)
+- [v0.4.0](https://github.com/kwewk/software-design-2/releases/tag/v0.4.0)
+- [v0.5.0](https://github.com/kwewk/software-design-2/releases/tag/v0.5.0)
+- [v1.0.0](https://github.com/kwewk/software-design-2/releases/tag/v1.0.0)
+- [v2.0.0](https://github.com/kwewk/software-design-2/releases/tag/v2.0.0)
